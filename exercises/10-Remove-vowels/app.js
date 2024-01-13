@@ -3,10 +3,10 @@ const rapid = (newString) => {
     let newWord = '';
 
     for (var i = 0; i < newString.length; i++) {
-        let letra = newString[i].toUpperCase()
+        let char = newString[i].toUpperCase()
 
-        if(!'AEIOU'.includes(letra)) {
-            newWord = newWord + letra;
+        if(!'AEIOU'.includes(char)) {
+            newWord = newWord + char;
         }
     }
 
